@@ -1,0 +1,39 @@
+.createForm{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  input{  
+    height:30px;
+    margin:10px auto;
+  }
+  &_date{
+    width:100px;
+  }
+  div{
+    margin:0 auto;
+  }
+  &_saveButton{
+    width:200px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    &:hover{
+      cursor: pointer;
+      background-color: rgb(109, 193, 71);
+      color:#fff;
+    }
+  }
+  &_cancelButton{
+    width:200px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+    &:hover{
+      cursor: pointer;
+      background-color: rgb(193, 73, 71);
+      color:#fff;
+    }
+  }
+}

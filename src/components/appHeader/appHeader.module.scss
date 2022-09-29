@@ -1,0 +1,76 @@
+.header{
+  display:flex;
+  justify-content: space-around;
+  padding:10px 0;
+  background-color: rgb(38, 101, 179);
+  &_button{
+    background-color: #fff;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 22px;
+    &:hover{
+      cursor:pointer;
+      background-color: rgb(109, 193, 71);
+      color:#fff;
+    }
+  }
+  &_signOut{
+    background-color: inherit;
+    border:none;
+    font-size: 14px;
+    margin-top:5px;
+    border-radius:5px;
+    color:rgb(63, 60, 60);
+    &:hover{
+      cursor:pointer;
+      background-color: rgb(177, 44, 44);
+      color:#fff;
+    }
+  }
+  &_profile{
+    display:flex;
+    align-items: center;
+    h3{
+      margin:0;
+    }
+  }
+}
+.appError{
+  background-color: rgb(174, 62, 62);
+  color:#fff;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  h3{
+    margin:0;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    color:#fff;
+  }
+}
+.appSuccess{
+  background-color: rgb(68, 155, 53);
+  color:#fff;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  h3{
+    margin:0;
+  }
+  button{
+    border: none;
+    background-color: inherit;
+    color:#fff;
+  }
+}
+.close {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom:7px;
+  &:hover{
+    cursor:pointer;
+    color:rgb(0, 0, 0)
+  }
+}

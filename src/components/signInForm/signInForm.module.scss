@@ -1,0 +1,27 @@
+.signIn{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  h2{
+    margin:0 auto;
+  }
+  input{  
+    height:30px;
+    margin:10px auto;
+  }
+  div{
+    margin:0 auto;
+  }
+  button{
+    width:150px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 30px;
+    &:hover{
+      cursor: pointer;
+      background-color: rgb(109, 193, 71);
+      color:#fff;
+    }
+  }
+}
